@@ -1,8 +1,23 @@
 package ec.edu.espoch.mecanica;
 
 public class Person {
+    public int id;
     public String name;
+    public String lastName;
+    public String card;
+    public String gender;
     public byte age;
+    
+    public void show(){
+        System.out.println("ID: "+  id);
+        System.out.println("Name: "+  name);
+        System.out.println("Last Name: "+  lastName);
+        System.out.println("Card: "+  card);
+        System.out.println("Gender: "+  gender);
+        System.out.println("Age: "+  age);
+    }
+    
+    
     
     public void drive(boolean state){
         if(state){

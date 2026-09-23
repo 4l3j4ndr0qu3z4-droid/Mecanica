@@ -1,6 +1,6 @@
 package ec.edu.espoch.mecanica;
 
-/**
+    /**
  *
  * @author pc
  */
@@ -9,8 +9,6 @@ public class Car {
     public String brand;
     public String model;
     public boolean state;
-    
-    
     
     /*metodos*/
     public void started(){

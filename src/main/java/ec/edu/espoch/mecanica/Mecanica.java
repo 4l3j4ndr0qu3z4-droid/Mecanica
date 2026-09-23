@@ -15,12 +15,25 @@ public class Mecanica {
         personOne.drive(true);
         
         Person personTwo = new Person();
-        personTwo.name = "Messi, ";
+        personTwo.name = "Lionel, ";
         personTwo.drive(true);
         
         Person personThree = new Person();
         personThree.name = "Pepe, ";
         personThree.drive(true);
         
+        personOne.age = 18;
+        personOne.id = 1;
+        personOne.card = "2200650105";
+        personOne.lastName = "Arias ";
+        personOne.gender = "Male";
+        personOne.show();
+        
+        personTwo.age = 19;
+        personTwo.id = 2;
+        personTwo.card = "3020650105";
+        personTwo.lastName = "Messi";
+        personTwo.gender = "Male";
+        personTwo.show();
     }
 }
