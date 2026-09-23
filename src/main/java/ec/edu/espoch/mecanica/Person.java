@@ -5,7 +5,7 @@ public class Person {
     public String name;
     public String lastName;
     public String card;
-    public String gender;
+    public Gender  gender;
     public byte age;
     
     public void show(){

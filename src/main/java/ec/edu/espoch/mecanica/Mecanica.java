@@ -26,14 +26,14 @@ public class Mecanica {
         personOne.id = 1;
         personOne.card = "2200650105";
         personOne.lastName = "Arias ";
-        personOne.gender = "Male";
+        personOne.gender = Gender.MASCULINO;
         personOne.show();
         
         personTwo.age = 19;
         personTwo.id = 2;
         personTwo.card = "3020650105";
         personTwo.lastName = "Messi";
-        personTwo.gender = "Male";
+        personTwo.gender = Gender.MASCULINO;
         personTwo.show();
     }
 }
