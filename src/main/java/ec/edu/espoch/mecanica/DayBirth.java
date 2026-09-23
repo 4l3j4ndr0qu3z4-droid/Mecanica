@@ -1,6 +1,6 @@
 package ec.edu.espoch.mecanica;
 
-public enum  DayBirth {
+public enum DayBirth {
     LUNES,
     MARTES,
     MIERCOLES,
@@ -8,5 +8,5 @@ public enum  DayBirth {
     VIERNES,
     SABADO,
     DOMINGO
-    
+
 }
