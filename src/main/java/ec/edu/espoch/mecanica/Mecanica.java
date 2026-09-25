@@ -4,7 +4,14 @@ public class Mecanica {
 
     public static void main(String[] args) {
 
-        Car carOne = new Car();
+        Person personOne = new Person(1,"Stalin"," Arias","2200650105",Gender.MASCULINO,18,DayBirth.LUNES);
+        personOne.show();
+        
+        Car carOne = new Car("Red ", "Toyota", "Agya", true );
+        carOne.show();
+        
+        personOne.drive(carOne);
+        /*Car carOne = new Car();
         carOne.color = "Blanco";
         carOne.model = "fortune";
         carOne.brand= "Toyota";
@@ -13,9 +20,12 @@ public class Mecanica {
         
 
         Car carTwo = new Car();
-        carTwo.started();
+        carTwo.started();*/
 
-        Person personOne = new Person();
+        
+        
+        
+       /* Person personOne = new Person();
         personOne.name = "Stalin, ";
         
 
@@ -41,7 +51,7 @@ public class Mecanica {
         personTwo.lastName = "Messi";
         personTwo.gender = Gender.MASCULINO;
         personTwo.dayBirth = DayBirth.JUEVES;
-        personTwo.show();
+        personTwo.show();*/
         
         
     }
